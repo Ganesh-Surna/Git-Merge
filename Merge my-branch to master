@@ -1,0 +1,36 @@
+1. # Switch to your feature branch
+   git checkout my-branch
+
+2. # Stage your changes
+   git add .
+
+3. # Commit your changes
+   git commit -m "msg"
+
+4. # Push your feature branch to the remote repository
+   git push origin my-branch
+
+5. # Switch to the master branch
+   git checkout master
+
+6. # Pull the latest changes from the remote master branch
+   git pull origin master
+
+7. # Merge your feature branch into master
+   git merge my-branch
+
+8. # Resolve any conflicts if there are any
+   # (After resolving conflicts)
+   git add .
+
+9. # Complete the merge with a commit
+   git commit -m "Merge my-branch into master"
+
+10. # Push the updated master branch to the remote repository
+    git push origin master
+
+11. # (Optional) Switch back to your feature branch
+    git checkout my-branch
+
+12. # (Optional) Pull the latest changes from master into your feature branch
+    git pull origin master
